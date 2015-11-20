@@ -112,13 +112,28 @@
 
 .footer-heading {
     font-size: 18px;
+    font-weight: 700;
     margin-bottom: $spacing-unit / 2;
+    letter-spacing: -0.5px;
 }
 
 .contact-list,
 .social-media-list {
     list-style: none;
     margin-left: 0;
+}
+
+.contact-list a {
+    border: none;
+    color: $grey-color;
+
+    &:visited {
+        color: $grey-color;
+    }
+
+    &:hover {
+        color: $grey-color-dark;
+    }
 }
 
 .social-media-list {
@@ -262,6 +277,7 @@
 }
 
 a {
+    transition: all 0.1s ease-in-out;
     display: inline-block;
     border-bottom: 3px solid $brand-color;
     color: $text-color;
@@ -326,6 +342,7 @@ h5 {
 
         &:hover {
             border: none;
+
         }
     }
 }
