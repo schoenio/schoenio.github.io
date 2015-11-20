@@ -106,7 +106,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 2px solid $grey-color-light;
+    border-top: 3px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
@@ -314,4 +314,18 @@ a {
 .value-proposition {
     overflow: hidden;
     margin-bottom: 32px;
+}
+
+
+h2,
+h3,
+h4,
+h5 {
+    a {
+        border: none;
+
+        &:hover {
+            border: none;
+        }
+    }
 }
