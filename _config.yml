@@ -24,5 +24,4 @@ enforce_ssl: schon.io   # without any protocol
 # Segment.com write key
 segment_write_key: "G0DxlXDzkUNlmTq2ALORzm7CM8nN2kDF"
 
-gems:
-  - jekyll-redirect-from
+include: ['_pages']
