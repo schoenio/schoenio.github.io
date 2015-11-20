@@ -2,8 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 5px solid $brand-color;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -12,13 +11,14 @@
 
 .site-title {
     font-size: 26px;
-    font-weight: 300;
+    font-weight: 700;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    border: none;
 
-    &,
+    &:hover,
     &:visited {
         color: $grey-color-dark;
     }
@@ -52,7 +52,7 @@
         text-align: right;
 
         .menu-icon {
-            display: block;
+            display: none;
             float: right;
             width: 36px;
             height: 26px;
@@ -98,7 +98,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 2px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
@@ -111,6 +111,10 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
+}
+
+.social-media-list {
+    margin-top: -6px;
 }
 
 .footer-col-wrapper {
@@ -239,4 +243,62 @@
             font-size: 18px;
         }
     }
+}
+
+.align-right {
+    text-align: right;
+}
+
+.btn {
+    padding: 5px;
+}
+
+a {
+    display: inline-block;
+    border-bottom: 3px solid $brand-color;
+    color: $text-color;
+
+    &:hover {
+        color: $text-color;
+        text-decoration: none;
+        border-color: $grey-color;
+    }
+
+    &:visited {
+        color: $text-color;
+    }
+}
+
+.btn-primary {
+    border-bottom: 3px solid $brand-color;
+    color: $text-color;
+
+    &:hover {
+        text-decoration: none;
+        border-color: $grey-color;
+    }
+
+    &:visited {
+        color: $text-color;
+    }
+
+    &:after {
+        content:" \2192";
+    }
+}
+
+.margin-bottom {
+    margin-bottom: 36px;
+}
+
+.pull-right {
+    float: right;
+}
+
+::-moz-selection {  background-color: $brand-color; }
+::selection { background-color: $brand-color; }
+
+.panel {
+    padding: 18px;
+    background-color: $grey-color-light;
 }
