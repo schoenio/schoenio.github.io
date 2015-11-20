@@ -17,10 +17,18 @@
     margin-bottom: 0;
     float: left;
     border: none;
+    color: $grey-color-dark;
 
     &:hover,
     &:visited {
         color: $grey-color-dark;
+    }
+
+    &:hover {
+        color: $grey-color !important;
+        span {
+
+        }
     }
 }
 
@@ -301,4 +309,9 @@ a {
 .panel {
     padding: 18px;
     background-color: $grey-color-light;
+}
+
+.value-proposition {
+    overflow: hidden;
+    margin-bottom: 32px;
 }
