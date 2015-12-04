@@ -25,3 +25,6 @@ enforce_ssl: schon.io   # without any protocol
 segment_write_key: "G0DxlXDzkUNlmTq2ALORzm7CM8nN2kDF"
 
 include: ['_pages']
+
+gems:
+  - jekyll-sitemap
