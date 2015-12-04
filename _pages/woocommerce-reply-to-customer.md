@@ -25,12 +25,6 @@ permalink: /woocommerce-reply-to-customer/
     <p><strong>Happiness promise</strong><br>If the plugin doesn't help you, write to hi@schon.io within 30 days of purchase and we'll give you a full refund.</p>
   </div>
 
-
-
-
-
-
-
 </div>
 
 ## Documentation
