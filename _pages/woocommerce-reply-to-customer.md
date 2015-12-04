@@ -6,15 +6,22 @@ permalink: /woocommerce-reply-to-customer/
 ---
 
 <div class="value-proposition">
-  <div class="" style="width: 275px; float: right;">
+  <div class="plugin-screenshot">
     <img src="https://d2yca1enuxtdrs.cloudfront.net/images/resize/product/1240/ce76d33aeb4bf46daf8de9c4b1bb1722.jpg" alt="Plugin screenshot">
   </div>
 
-  <p>This WooCommerce plugin makes the new order notification email that is sent to the store owner appear to have been sent from the customer's email address. This allows the store owner to simply press "reply" within their email client to contact the customer about their new order.</p>
+  <p>This WooCommerce plugin makes the new order notification email that is sent to the store owner appear to have been sent from the customer's email address. This lets the store owner simply press "reply" within their email client to contact the customer about their new order.</p>
 
   <p>Your purchase includes one year of support and updates, and the right to use the plugin on up to five domains.</p>
 
   <p><a href="https://sellfy.com/p/98Kw/" class="btn btn-primary">Buy on Sellfy</a></p>
+
+  <div class="panel" style="max-width: 370px; margin-top: 18px;">
+    <p><strong>Happiness promise:</strong> If the plugin doesn't help you, write to hi@schon.io within 30 days of purchase and we'll give you a full refund.</p>
+  </div>
+
+
+
 
 </div>
 
