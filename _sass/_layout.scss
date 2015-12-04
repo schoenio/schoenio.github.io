@@ -322,6 +322,16 @@ a {
 .plugin-screenshot {
     width: 100%;
     margin-bottom: 18px;
+    border: 3px solid $grey-color-light;
+    background-color: $grey-color-light;
+    font-size: 14px;
+
+    p {
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 5px;
+    }
 }
 
 @media screen and (min-width: 500px) {
@@ -348,7 +358,7 @@ a {
 
 .value-proposition {
     overflow: hidden;
-    margin-bottom: 32px;
+    margin-bottom: 18px;
 }
 
 
