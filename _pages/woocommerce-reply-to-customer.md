@@ -12,19 +12,24 @@ permalink: /woocommerce-reply-to-customer/
 
   <p>This WooCommerce plugin makes the new order notification email that is sent to the store owner appear to have been sent from the customer's email address. This lets the store owner simply press "reply" within their email client to contact the customer about their new order.</p>
 
-  <p>The plugin takes a minute to install, and will save a typical store owner many hours of tedious work every year.</p>
+  <p>The plugin takes a minute to install, and will save a typical store owner hours of tedious work every year.</p>
 
   <p>Your purchase includes one year of support and updates, and the right to use the plugin on up to five domains.</p>
 
-  <p><a href="https://sellfy.com/p/98Kw/" class="btn btn-primary">Buy on Sellfy</a></p>
+<p><a href="https://sellfy.com/p/98Kw/" class="btn btn-primary">Buy on Sellfy</a></p>
 
-
-  <div class="panel" style="max-width: 500px; margin-top: 32px;">
+  <div class="panel" style="margin-top: 27px; margin-bottom: 32px;">
     <div style="float: left; font-size: 3rem; margin-bottom: 18px; margin-right: 15px;">
       <i class="icon icon-smile-o icon-emo-happy"></i>
     </div>
     <p><strong>Happiness promise</strong><br>If the plugin doesn't help you, write to hi@schon.io within 30 days of purchase and we'll give you a full refund.</p>
   </div>
+
+
+
+
+
+
 
 </div>
 
