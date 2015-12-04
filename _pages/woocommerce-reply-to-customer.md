@@ -19,7 +19,7 @@ permalink: /woocommerce-reply-to-customer/
 <p><a href="https://sellfy.com/p/98Kw/" class="btn btn-primary">Buy on Sellfy</a></p>
 
   <div class="panel" style="margin-top: 27px; margin-bottom: 32px;">
-    <div style="float: left; font-size: 3rem; margin-bottom: 18px; margin-right: 15px;">
+    <div class="icon-happy">
       <i class="icon icon-smile-o icon-emo-happy"></i>
     </div>
     <p><strong>Happiness promise</strong><br>If the plugin doesn't help you, write to hi@schon.io within 30 days of purchase and we'll give you a full refund.</p>
