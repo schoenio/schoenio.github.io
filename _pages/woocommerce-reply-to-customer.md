@@ -14,7 +14,7 @@ permalink: /woocommerce-reply-to-customer/
 
   <p>The plugin takes a minute to install, and will save a typical store owner hours of tedious work every year.</p>
 
-  <p>Your purchase includes one year of support and updates, and the right to use the plugin on up to five domains.</p>
+  <p>Your purchase includes one year of support and updates, and the right to use the plugin on up to three domains.</p>
 
 <p><a href="https://sellfy.com/p/98Kw/" class="btn btn-primary">Buy on Sellfy</a></p>
 
