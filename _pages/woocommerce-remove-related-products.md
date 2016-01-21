@@ -7,7 +7,7 @@ permalink: /woocommerce-remove-related-products/
 
 <div class="value-proposition">
   <div class="plugin-screenshot">
-    <img src="/assets/img/woocommerce-remove-related-products.jpg" alt="Plugin screenshot">
+    <img src="/assets/img/woocommerce-remove-related-products-2.jpg" alt="Plugin screenshot">
   </div>
 
   <p>This WooCommerce plugin disables the "related products" section which appears on the product page.</p>
