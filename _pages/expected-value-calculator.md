@@ -24,7 +24,7 @@ permalink: /expected-value-calculator/
     background-color: #eee;
     padding: 10px;
     clear: both;
-    width: 390px;
+    max-width: 400px;
   }
 
   .evc fieldset {
@@ -42,6 +42,7 @@ permalink: /expected-value-calculator/
   }
 
   .evc input {
+    width: 180px;
     font-size: 16px;
     padding: 3px 5px 3px 5px;
   }
@@ -50,6 +51,11 @@ permalink: /expected-value-calculator/
     display: block;
     overflow: hidden;
     margin-bottom: 9px;
+  }
+
+  .evc .tip {
+    margin-top: 18px;
+    margin-bottom: 0;
   }
 
   .evc .form-group:last-child {
@@ -68,16 +74,17 @@ permalink: /expected-value-calculator/
     <div class="form-fields">
       <div class="form-group">
         <label>Probability of success:</label>
-        <input type="number" value="0.1" min="0" max="1" step="0.1" id="evc__probability-success" name="evc__probability-success" class="form-control">
+        <input type="number" value="0.1" min="0" max="1" step="0.1" id="evc__probability-success" name="evc__probability-success" class="form-control" onchange="updateResult();">
       </div>
       <div class="form-group">
         <label>Value of success, or number of trials:</label>
-        <input type="number" value="1" id="evc__trials" min="1" name="evc__trials" class="form-control">
+        <input type="number" value="1" id="evc__trials" min="1" name="evc__trials" class="form-control" onchange="updateResult();">
       </div>
       <div class="form-group evc__result-panel">
         <label>Expected value:</label> <span id="evc__result">0.1</span>
       </div>
     </div>
+    <p class="tip">N.B. The calculated expected value is rounded to ten decimal places.</p>
   </fieldset>
 </form>
 
@@ -89,37 +96,25 @@ permalink: /expected-value-calculator/
 <h3>What is expected value?</h3>
 <p>Expected value is statistical concept which is often used as a tool for thinking about risk. You can learn more about expected value on <a href="https://www.khanacademy.org/math/probability/random-variables-topic/expected-value">Kahn Academy</a> or <a href="https://en.wikipedia.org/wiki/Expected_value" target="_blank">Wikipedia</a>.</p>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.js"></script>
-
 <script>
-  var $result = $('#evc__result');
-  var $trials = $('#evc__trials');
-  var $probabilitySuccess = $('#evc__probability-success');
-
-  $trials.on('change', function() {
-    updateResult();
-  });
-
-  $probabilitySuccess.on('change', function() {
-    updateResult();
-  });
+  var $result = document.getElementById('evc__result');
+  var $trials = document.getElementById('evc__trials');
+  var $probabilitySuccess = document.getElementById('evc__probability-success');
 
   function updateResult() {
-    var trials = parseFloat($trials.val());
-    var probabilitySuccess = parseFloat($probabilitySuccess.val());
+    var trials = parseFloat($trials.value);
+    var probabilitySuccess = parseFloat($probabilitySuccess.value);
     if(probabilitySuccess > 1) {
       probabilitySuccess = 1;
       $probabilitySuccess.val(1);
     }
     var exactResult = trials * probabilitySuccess;
-    var result = Math.round(exactResult * 100) / 100;
-    console.log($trials.length);
-    console.log(trials);
-    console.log(probabilitySuccess);
-    if(!isNaN(result)) {
-      $result.html(result);
-    }
+    var result = Math.round(exactResult * 1000000000000) / 1000000000000;
 
-    analytics.track('Updated calculation');
+    if(!isNaN(result)) {
+      analytics.track('Updated calculation');
+      result = result.toString();
+      $result.innerHTML = result;
+    }
   }
 </script>
