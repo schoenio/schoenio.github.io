@@ -3,6 +3,7 @@ layout: page
 title: Expected Value Calculator
 meta_title: Expected Value Calculator
 permalink: /expected-value-calculator/
+sitemap: false
 ---
 
 <!--
