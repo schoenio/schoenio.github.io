@@ -10,7 +10,9 @@ permalink: /woocommerce-reply-to-customer/
     <img src="/assets/img/woocommerce-new-order-reply-to-customer.jpg" alt="Plugin screenshot">
   </div>
 
-  <p>This WooCommerce plugin makes the new order notification email that is sent to the store owner appear to have been sent from the customer's email address. This lets the store owner simply press "reply" within their email client to contact the customer about their new order.</p>
+  <p>This WooCommerce plugin makes the new order notification email that is sent to the store owner appear to have been sent from the customer's email address.</p>
+
+  <p>This lets the store owner simply press "reply" within their email client to contact the customer about their new order.</p>
 
   <p>The plugin takes a minute to install, and will save a typical store owner hours of tedious work every year.</p>
 
